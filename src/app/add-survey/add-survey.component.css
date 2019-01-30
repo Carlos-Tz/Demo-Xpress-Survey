@@ -1,0 +1,62 @@
+@page {margin: 0;padding: 0;}
+  
+    .page {
+      position: relative;
+      width: var(--page-width);
+      min-width: var(--page-width);
+      height: var(--page-height);
+      min-height: var(--page-height);
+      background: var(--page-color);
+      margin: 0 auto;
+      box-shadow: 1px 5px 15px #707070;
+    }
+    .page:first-of-type { margin-top: var(--margin-first-page); }
+    .page:last-of-type { margin-bottom: var(--margin-last-page); }
+    .bar {
+      height: 100%;
+      background: -webkit-linear-gradient(to right, #3a3a3c 6.8cm, var(--page-color) 6.8cm );
+      background: linear-gradient(to right, #3a3a3c 6.8cm, var(--page-color) 6.8cm );
+    }
+    .page > .inner {
+      position: relative;
+      width: var(--page-inner-width);
+      height: var(--page-inner-height);
+      margin: 0 var(--page-inner-margin);
+      top: var(--page-inner-top);
+      overflow: hidden;
+      /*border: 1.7px solid #E63469;*/
+    }
+    #r_row{
+      margin-bottom : 0;
+    }
+    #r_col{
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 2mm;
+    }
+    #sub_t{
+      margin-left: 2.5cm;
+    }
+    #row_input{
+      margin-top: 0;
+      margin-bottom: 0;
+      height: 1.1cm;
+    }
+    #i_name{
+      width: 15.5cm;
+    }
+    #i_order{
+      width: 9cm;
+    }
+    #i_date{
+      width: 5cm;
+    }
+    #i_comm{
+      margin-left: 2.5cm;
+      width: 16cm;
+    }
+    #r_q1{
+      margin-bottom: 0;
+      margin-top: 3mm;
+    }
+    
