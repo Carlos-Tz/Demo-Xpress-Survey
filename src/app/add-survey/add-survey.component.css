@@ -28,11 +28,22 @@
     }
     #head{
       margin-bottom: 0;
+      
     }
 
     #r_row{
       margin-top: 2mm;
       margin-bottom : 0;
+    }
+    #r_row_1b{
+      margin-top: 3mm;
+      margin-bottom: 0;
+      padding-left : 2.8cm;
+    }
+    #r_row_1c{
+     /* margin-top: 4mm;*/  
+      margin-bottom: 0;
+      padding-left : 2.8cm;
     }
     #r_row_b{
       margin-top: 0;
@@ -40,11 +51,25 @@
     }
     #r_col{
       padding-left: 0;
-      padding-right: 1.5mm;
+      /*padding-right: 1.5mm;*/
+      margin-right: 2mm;
       margin-bottom: 2mm;
     }
+    #r_col_2{
+      padding-left: 0;
+      margin-right: 2mm;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    #r_col_2b{
+      padding-left: 0;
+      margin-right: 2mm;
+      margin-bottom: 0;
+      margin-top: 3mm;
+    }
     #sub_t{
-      margin-left: 2cm;
+      margin-left: 2.8cm;
+      width: 16.6cm;
     }
     #row_input{
       margin-top: 0;
@@ -52,7 +77,7 @@
       height: 1cm;
     }
     #i_name{
-      width: 15cm;
+      width: 15.1cm;
       background: none;
     }
     #i_order{
@@ -62,12 +87,14 @@
       width: 4.8cm;
     }
     #i_comm{
-      margin-left: 2cm;
-      width: 17.4cm;
+      margin-left: 2.8cm;
+      width: 16.6cm;
       height: 1cm;
     }
     #r_q1{
       margin-bottom: 0;
-      margin-top: 8mm;
+      margin-top: 6mm;
     }
-    
+    #radio_b{
+      padding-top: 2mm;
+    }
