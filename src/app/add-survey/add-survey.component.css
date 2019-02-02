@@ -26,37 +26,48 @@
       overflow: hidden;
       /*border: 1.7px solid #E63469;*/
     }
+    #head{
+      margin-bottom: 0;
+    }
+
     #r_row{
+      margin-top: 2mm;
+      margin-bottom : 0;
+    }
+    #r_row_b{
+      margin-top: 0;
       margin-bottom : 0;
     }
     #r_col{
       padding-left: 0;
-      padding-right: 0;
+      padding-right: 1.5mm;
       margin-bottom: 2mm;
     }
     #sub_t{
-      margin-left: 2.5cm;
+      margin-left: 2cm;
     }
     #row_input{
       margin-top: 0;
       margin-bottom: 0;
-      height: 1.1cm;
+      height: 1cm;
     }
     #i_name{
-      width: 15.5cm;
+      width: 15cm;
+      background: none;
     }
     #i_order{
       width: 9cm;
     }
     #i_date{
-      width: 5cm;
+      width: 4.8cm;
     }
     #i_comm{
-      margin-left: 2.5cm;
-      width: 16cm;
+      margin-left: 2cm;
+      width: 17.4cm;
+      height: 1cm;
     }
     #r_q1{
       margin-bottom: 0;
-      margin-top: 3mm;
+      margin-top: 8mm;
     }
     

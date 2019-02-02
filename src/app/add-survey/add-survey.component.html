@@ -4,10 +4,10 @@
           <div class="inner">
               <div class="row">
                   <form [formGroup]="surveyForm" (ngSubmit)="submitSurveyData()" novalidate>
-                      <div class="row col s9" id="r_row">
-                          <h5><b>ENCUESTA DE SALIDA <br>SERVICE XPRESS VOLKSWAGEN</b></h5>
+                      <div class="row col s9" id="head">
+                          <div id="m-title">ENCUESTA DE SALIDA SERVICE XPRESS VOLKSWAGEN</div>
                       </div>
-                      <div class="row col s3" id="r_row">
+                      <div class="row col s3" id="head">
                           <img src="assets/Experiencia de 10.png" alt="" width="100%">
                       </div>
                       <div class="row col s12" id="r_row">
@@ -292,7 +292,7 @@
                           </div>
                       </div>
                       <div class="row" id="r_row">
-                          <p id="sub_t">Comentarios adicionales</p>
+                          <p id="sub_t">Comentarios adicionales:</p>
                           <div class="input-field inline" id="row_input">
                               <input type="text" formControlName="group1d" class="form-control" id="i_comm">
                           </div>
@@ -571,7 +571,7 @@
                       <div class="row col s12" id="r_q1">
                       <p>5.- Conoció Service Xpress a travéz de algún medio publicitario.</p>
                       </div>
-                      <div class="row" id="r_row">
+                      <div class="row" id="r_row_b">
                           <div class="row col s2">
                               <label>
                                   <input type="radio" formControlName="group5" class="form-control" value="Radio">
@@ -584,7 +584,7 @@
                                   <span>Facebook</span>
                               </label>
                           </div>
-                          <div class="row col s3">
+                          <div class="row col s2">
                               <label>
                                   <input type="radio" formControlName="group5" class="form-control" value="Web" />
                                   <span>Página Web</span>
@@ -596,30 +596,31 @@
                                   <span>Email</span>
                               </label>
                           </div>
-                          <div class="row col s1">
-                              <label>
-                                  <input type="radio" formControlName="group5" class="form-control" value="otro" />
-                                  <span>Otro</span>
-                              </label>
-                          </div>
+                          <div class="row col s2">
+                            <label>
+                                <input type="radio" formControlName="group5" class="form-control" value="otro" />
+                                <span>Otro</span>
+                            </label>
+                        </div>
                           <div class="row col s2">
                               <label>
                                   <input type="radio" formControlName="group5" class="form-control" value="ninguno" />
                                   <span>Ninguno</span>
                               </label>
                           </div>
+                          
                       </div>
-                      <div class="row" id="r_row">
+                      <div class="row" id="r_row_b">
                           <div class="row col s3" id="r_row">
                               <img src="assets/Logo service express.png" alt="" width="100%">
                           </div>
-                          <div class="row col s3" id="r_row">
+                          <div class="row col s3" id="r_row_b">
                               <img src="assets/Logo1.png" alt="" width="100%">
                           </div>
-                          <div class="row col s3 right-align" id="r_row">
+                          <div class="row col s3 right-align" id="r_row_b">
                               <button type="submit" class="btn btn-success btn-large" [disabled]="!surveyForm.valid">Enviar</button>
                           </div>
-                          <div class="row col s3 center-align" id="r_row">
+                          <div class="row col s3 center-align" id="r_row_b">
                               <img src="assets/Logo3.png" alt="" height="50px">
                           </div>
                       </div>
